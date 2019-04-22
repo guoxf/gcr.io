@@ -2,7 +2,7 @@ docker pull kubernetes2019/kube-apiserver:v1.14.1
 docker tag kubernetes2019/kube-apiserver:v1.14.1 k8s.gcr.io/kube-apiserver:v1.14.1
 
 docker pull kubernetes2019/kube-controller-manager:v1.14.1
-docker tag kubernetes2019/kube-controller-manager:v1.14.1 k8s.gcr.io/kube-controller-managerv1.14.1
+docker tag kubernetes2019/kube-controller-manager:v1.14.1 k8s.gcr.io/kube-controller-manager:v1.14.1
 
 docker pull kubernetes2019/kube-proxy:v1.14.1
 docker tag kubernetes2019/kube-proxy:v1.14.1 k8s.gcr.io/kube-proxy:v1.14.1
